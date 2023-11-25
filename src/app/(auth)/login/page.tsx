@@ -15,7 +15,7 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-import Loader from "@/components/Loader";
+import Loader from "@/components/global/Loader";
 import Link from "next/link";
 import Image from "next/image";
 import Logo from "../../../../public/cypresslogo.svg";
