@@ -119,12 +119,7 @@ const DashboardSetup: React.FC<DashboardSetupProps> = ({
   };
 
   return (
-    <Card
-      className="w-[800px]
-      h-screen
-      sm:h-auto
-  "
-    >
+    <Card className="w-[800px] h-screen sm:h-auto">
       <CardHeader>
         <CardTitle>Create A Workspace</CardTitle>
         <CardDescription>
@@ -135,11 +130,7 @@ const DashboardSetup: React.FC<DashboardSetupProps> = ({
       <CardContent>
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="flex flex-col gap-4">
-            <div
-              className="flex
-            items-center
-            gap-4"
-            >
+            <div className="flex items-center gap-4">
               <div className="text-5xl">
                 <EmojiPicker getValue={(emoji) => setSelectedEmoji(emoji)}>
                   {selectedEmoji}
@@ -169,12 +160,7 @@ const DashboardSetup: React.FC<DashboardSetupProps> = ({
               </div>
             </div>
             <div>
-              <Label
-                htmlFor="logo"
-                className="text-sm
-                  text-muted-foreground
-                "
-              >
+              <Label htmlFor="logo" className="text-sm text-muted-foreground">
                 Workspace Logo
               </Label>
               <Input
