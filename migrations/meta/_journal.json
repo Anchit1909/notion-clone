@@ -15,6 +15,13 @@
       "when": 1700635334733,
       "tag": "0001_rapid_domino",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1700999993850,
+      "tag": "0002_busy_rage",
+      "breakpoints": true
     }
   ]
 }
